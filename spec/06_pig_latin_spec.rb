@@ -22,6 +22,8 @@ describe "#translate" do
     expect(s).to eq("eatay iepay")
   end
 
+
+
   it "translates a word beginning with three consonants" do
     expect(translate("three")).to eq("eethray")
   end
@@ -46,8 +48,8 @@ describe "#translate" do
     expect(s).to eq("ethay ickquay ownbray oxfay")
   end
 
-  # Test-driving bonus:
-  # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
-  # * retain the punctuation from the original phrase
-
+#   Test-driving bonus:
+#   * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
+#   * retain the punctuation from the original phrase
+#
 end
