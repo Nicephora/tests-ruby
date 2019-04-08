@@ -10,7 +10,6 @@ describe "Simon says" do
       expect(echo("bye")).to eq("bye")
     end
   end
-
   describe "shout" do
     it "should shout hello" do
       expect(shout("hello")).to eq("HELLO")
@@ -20,7 +19,7 @@ describe "Simon says" do
       expect(shout("hello world")).to eq("HELLO WORLD")
     end
   end
-
+#
   describe "repeat" do
     it "should repeat" do
       expect(repeat("hello")).to eq("hello hello")
@@ -34,7 +33,7 @@ describe "Simon says" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
     end
   end
-
+# #
   describe "start_of_word" do
     it "returns the first letter" do
       expect(start_of_word("hello", 1)).to eq("h")
@@ -51,7 +50,7 @@ describe "Simon says" do
       expect(start_of_word(s, 3)).to eq("abc")
     end
   end
-
+#
   describe "first_word" do
     it "tells us the first word of 'Hello World' is 'Hello'" do
       expect(first_word("Hello World")).to eq("Hello")
@@ -79,5 +78,5 @@ describe "Simon says" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
-
+#
 end
